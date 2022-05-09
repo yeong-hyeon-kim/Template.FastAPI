@@ -1,5 +1,4 @@
 from sre_parse import State
-import string
 from sys import intern
 from tokenize import String
 from typing import Optional

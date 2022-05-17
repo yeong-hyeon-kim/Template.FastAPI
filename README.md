@@ -4,7 +4,11 @@ Python Web Framework
 
 ## Requried Python Packages
 
-* 'FastAPI' 
+* 'FastAPI'
   * `pip install fastapi`
-* 'gunicorn' 
+* 'gunicorn'
   * `pip install gunicorn`
+
+## Run Server
+
+* `uvicorn main:app --reload`

@@ -16,7 +16,6 @@ class Note(BaseModel):
 async def read_root():
     return {"Hello": "World"}
 
-
 # API
 @app.post("/notes/{note_id}")
 async def update_note(note_id: int, note_title: str, note_content: str):
